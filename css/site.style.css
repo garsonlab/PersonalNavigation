@@ -1,0 +1,261 @@
+
+li{
+  list-style: none;
+}
+
+a{
+ 
+  font-family: "微软雅黑";
+}
+
+
+
+.daohan{
+  margin-top: 60px;
+   
+}
+
+.daohan ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 0px;
+  width: 100%;
+} 
+
+ 
+.daohan li{
+
+ width: 20%;
+ 
+}
+
+ 
+.daohan li > a >img{
+
+ width: 100%;
+  height: 100%;
+}
+
+.site-area{
+ 
+  margin-bottom: 20px; 
+}
+
+.site-area .floor{
+ 
+  font-size: 20px;
+  color: #B2B2B2;
+  font-weight: 400;
+  border-bottom: 1px solid #B2B2B2; 
+  margin-bottom: 10px;
+  
+}
+
+.site-area  ul{
+
+ display: flex;
+ flex-direction: row;
+}
+ 
+
+.site-area  ul:hover{
+
+  background-color: #F8F8F8;
+} 
+
+ 
+.site-area ul > li{
+  
+   height: 26px;
+   width: 100px;
+   line-height: 26px;
+}
+
+.site-area ul > li:first-child{
+  
+  text-align: center;
+  width: 70px;
+  margin-left: -40px;
+  margin-right: 20px; 
+  
+} 
+
+
+.floor_1 .title{
+
+ background-color: #09bb07;
+}
+
+.floor_2 .title{
+
+ background-color: #1A83B5;
+}
+
+
+.floor_3 .title{
+
+ background-color: #e64340;
+}
+
+
+.floor_4 .title{
+
+ background-color: #9BA714;
+}
+
+.floor_5 .title{
+
+ background-color: #A99440;
+}
+
+
+.floor_6 .title{
+
+ background-color: #09bb07;
+}
+
+
+.floor_7 .title{
+
+ background-color: #e64340;
+}
+
+
+.floor_8 .title{
+
+ background-color: #e64340;
+}
+
+
+.floor_9 .title{
+
+ background-color: #09bb07;
+}
+
+
+.floor_10 .title{
+
+ background-color: #e64340;
+}
+
+
+ 
+.color_green{
+  
+   background-color: #09bb07;
+} 
+
+.color_red{
+  
+   background-color: #e64340;
+} 
+
+
+.color_blue{
+  
+   background-color: #1A83B5;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.site-area ul > li >a{
+
+color: #353535;
+
+}
+
+.site-area ul > li >a:hover{
+
+ color: #e64340;
+}
+ 
+.site-area ul > li:first-child a{
+
+color: #FFFFFF;
+
+}
+
+
+
+.site-area .floor ul:hover{
+
+ background-color: #888888;
+
+}
+
+ 
+.site-area .floor .title{
+
+ background-color: #09bb07;
+ color: #353535;
+ 
+ }
+ 
+
+.site-bottom{
+
+margin-top: 100px;
+background-color: #353535;
+height: 200px;
+
+}
+ 
+.site-bottom p{
+
+ color: #D6D6D6;
+ margin-top: 30px;
+ margin-left: 90px;
+}
+
+.site-bottom p.info{
+
+  width: 350px;
+}
+
+
+
+/*旁边栏*/
+.toolbar{
+
+background-color: #EFEFEF;
+
+}
+
+.toolbar .title{
+
+ color: #09bb07;
+
+}
+
+
+
+#footer:after,#goToTop a {
+	display:block;
+	overflow:hidden; 
+}
+
+#goToTop {
+	position:fixed;
+	bottom:20px;
+	right:4%;
+	z-index:1003;
+}
+
+#goToTop a {
+	width:50px;
+	height:50px;
+	background:url(../img/scrollup.png) center no-repeat;
+}
+ 
