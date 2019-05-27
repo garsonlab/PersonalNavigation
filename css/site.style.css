@@ -4,7 +4,6 @@ li{
 }
 
 a{
- 
   font-family: "微软雅黑";
 }
 
@@ -38,12 +37,10 @@ a{
 }
 
 .site-area{
- 
   margin-bottom: 20px; 
 }
 
 .site-area .floor{
- 
   font-size: 20px;
   color: #B2B2B2;
   font-weight: 400;
@@ -66,7 +63,7 @@ a{
 
  
 .site-area ul > li{
-  
+  float: left;
    height: 26px;
    width: 100px;
    line-height: 26px;
