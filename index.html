@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <!-- <meta name="description" content="Morey丨个人导航  简单实用的个人导航网页，收录几个够用的网站；可以实现多引擎搜索，如百度，谷歌，必应">
     <meta name="keywords" content="导航,简单实用的导航,多搜索引擎,谷歌,百度,必应,搜索，网盘，电影"> -->
-    <!-- <meta name="generator" content="Morey 丨 2018.09.27"> -->
+    <!-- <meta name="generator" content="Garson 丨 2018.09.27"> -->
     <link rel="shortcut icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/semantic.min.css">
     <link rel="stylesheet" href="css/m_dh.style.css">
@@ -14,7 +14,6 @@
 </head>
 
 <body>
-<!--使用了Semantic-UI进行美化-->
 
     <div class="ui inverted menu borderless">
         <div class="ui container">
@@ -24,7 +23,6 @@
             </span>
             <a href="https://github.com/garsonlab" class="item" target="_blank">GitHub</a>
             <!-- <a class="ui item right floated" id="goDonate">*.*</a> -->
-
         </div>
     </div>
 
@@ -193,8 +191,26 @@
             </div>
         </div> -->
         
+        <div class="ui styled fluid accordion">
+            <div class="active title"><i class="dropdown icon"></i> My Navigation </div>
+            <div class="active content">
+                <div class="site-area floor_1">
+                    <!-- <div class="floor">html5</div> -->
+                    <!-- <div class="ui tag label">New</div> -->
+                   
+                </div>
+            </div>
+            <div class="title"><i class="dropdown icon"></i> My Book </div>
+            <div class="content">
+                fdsf
+            </div>
+            <div class="title"><i class="dropdown icon"></i> My Music </div>
+            <div class="content">
+                fdf
+            </div>
+        </div>
         
-        <div class="site-area floor_1">
+        <!-- <div class="site-area floor_1">
             <div class="floor">html5</div>
             <ul>
                 <li class="title"><a href="#" onclick="return false" target="_blank">游戏</a></li>
@@ -209,15 +225,40 @@
                 <li><a href=" http://www.phaser.io/" target="_blank" title="H5游戏引擎">phaser</a></li>
                                     
             </ul>
-        </div>
-
-        
+        </div> -->
+<!-- 
+        <div class="ui grid">
+                <div class="doubling eight column row">
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                </div>
+                <div class="doubling six column row">
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                </div>
+                <div class="doubling four column row">
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                  <div class="column"></div>
+                </div>
+              </div> -->
 
         <!-- <div class="FooterPush"></div> -->
     </div>
 
     <!-- <div class="ui footer segment  inverted vertical">
-    <div class="footer-inner" >
+        <div class="footer-inner" >
         <div class="copyright">
             ©
             <span itemprop="copyrightYear">2018</span>
@@ -236,60 +277,11 @@
     </div> -->
 
 
-<!-- 弹出二维码 -->
-<!-- <div id="donate"> -->
-
-<!-- </div> -->
-
 <!-- <canvas id="canvas" width="100%" height="100%"></canvas> -->
 </body>
 <script src="js/semantic.min.js"></script>
-<!--百度统计-->
-<!-- <script>
-    var _hmt = _hmt || [];
-    (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?08782df572e5129fbac8da8687b7b420";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-    })();
-</script> -->
-<!--搜索引擎-->
 <script src="js/search.js"></script>
-<!-- <script>
-    $(document).ready(function () {
 
-        $('#goDonate').click(function () {
-            $('.ui.modal').modal('show');
-        });
-
-    });
-    document.getElementById("donate").innerHTML=
-        "<div class=\"ui basic small modal \">" +
-        " <div class=\"content\">" +
-        "<div class=\"ui two cards\">" +
-        "<div class=\" card\"> " +
-        "<div class=\"image\">" +
-        "<img src=\"img/alipay.png\">" +
-        "</div>" +
-        "<div class=\"content \">" +
-        "<div class=\"center aligned header \">Alipay</div>" +
-        " </div>" +
-        "</div>" +
-        " <div class=\"card\">" +
-        "<div class=\"image\">" +
-        "<img src=\"img/wechatpay.png\"></div>" +
-        "<div class=\"content\"><a class=\"center aligned header\" >WeChatPay</a></div>" +
-        "</div>" +
-        "</div>" +
-        "</div>" +
-        "<div class=\"actions\">" +
-        "<div class=\"ui red basic cancel inverted button\">Back</div></div></div>";
-
-           
-</script> -->
-<!--引入不蒜子计数-->
-<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
 <script type="text/javascript">
     var OriginTitile = document.title;
     var titleTime;
@@ -307,10 +299,14 @@
             }
         });
 </script>
-<!--劝退IE-->
-<!-- <script src="js/checkIE.js"></script> -->
-<!-- 引入superplaceholder.js，实现input打字机效果 -->
-<script src="js/superplaceholder.js"></script>
+
+<script type="text/javascript">
+    $('.ui.accordion')
+        .accordion()
+    ;
+</script>
+
+<script src="js/superplaceholder.js"></script><!--  打字机效果 -->
 <script src="js/checkOs.js"></script>
 <!-- <script src="js/hovertreewelcome.js"></script> -->
 
