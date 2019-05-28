@@ -68,9 +68,18 @@ body {
 
 }
 
-/* #canvas {
+.customsite {
+    color: #353535;
+}
+
+.customsite:hover {
+    color: #e64340;
+    text-decoration: underline;
+}
+/* 
+#canvas {
     position: absolute;
-    z-index: 10;
+    z-index: -10;
     top: 0;
     left: 0;
     bottom: 0;
