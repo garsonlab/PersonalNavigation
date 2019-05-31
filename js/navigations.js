@@ -71,6 +71,7 @@ var data = [
         column: "four",
         num: 4,
         list: [
+            {url: "https://github.com/Werido/free-programming-books/blob/master/free-programming-books-zh.md", title:"", display:"免费编程书籍"},
             {url: "https://docs.microsoft.com/zh-cn/dotnet/csharp/tutorials/intro-to-csharp/", title:"", display:"msdn C# 教程"},
             {url: "https://en.wikibooks.org/wiki/Cg_Programming/Unity", title:"", display:"Cg Programming"},
             {url: "https://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0", title:"", display:"dot net源码"},
