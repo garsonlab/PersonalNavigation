@@ -120,8 +120,8 @@ var data = [
         column: "two",
         num: 2,
         list: [
+            {url: "https://easyhook.github.io/tutorials.html", title:"注入程序", display:"Easy Hook"},
             {url: "https://github.com/chenjd/UsefulWeb", title:"", display:"chenjd/UsefulWeb"},
-            // {url: "http://www.9game.cn/", title:"", display:"九游"},
             // {url: "https://www.gameres.com/", title:"", display:"游资网"},
         ]
     },

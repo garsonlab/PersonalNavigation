@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="description" content="Morey丨个人导航  简单实用的个人导航网页，收录几个够用的网站；可以实现多引擎搜索，如百度，谷歌，必应">
-    <meta name="keywords" content="导航,简单实用的导航,多搜索引擎,谷歌,百度,必应,搜索，网盘，电影"> -->
-    <!-- <meta name="generator" content="Garson 丨 2018.09.27"> -->
+    <meta name="description" content="Garson的个人导航">
+    <meta name="keywords" content="个人导航">
+    <meta name="generator" content="Garson 丨 2018.09.27">
     <link rel="shortcut icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/semantic.min.css">
     <link rel="stylesheet" href="css/m_dh.style.css">
@@ -29,7 +29,6 @@
         <img class="centerlog" src="img/title_black.png">
         <div class="ui search">
             <div class="ui input">
-                <!-- name="wd" -->
                 <input id="search" class="prompt" type="text" placeholder=""  autofocus="autofocus">
             </div>
         </div>
@@ -51,53 +50,10 @@
             <button class="ui button" id="bt"> BT </button>
             <button class="ui button" id="fanyi"> 翻译 </button>
         </div>
-        <!-- <div class="ui  two column grid stables ">
-            <div  class=" column">
-                <table class="ui definition small table ">
-                    <tbody>
-                    <tr  >
-                        <td  align="center">软件</td>
-                        <td align="center"><a href="http://shaoit.com/" target="_blank"  >殁漂遥</a></td>
-                        <td align="center"><a href="https://xbeta.info/" target="_blank"  >善用佳软</a></td>
-                        <td align="center"><a href="http://www.appinn.com/" target="_blank"  >小众软件</a></td>
-                        <td align="center"><a href="http://sspai.com/" target="_blank"  >少数派</a></td>
-                    </tr>
-                    <tbody>
-                    <tr>
-                        <td  align="center">安卓</td>
-                        <td align="center"><a href="https://www.coolapk.com/" target="_blank"  >酷安网</a></td>
-                        <td align="center"><a href="https://apkpure.com/" target="_blank"  >APKPure</a></td>
-                        <td align="center"><a href="https://forum.xda-developers.com/" target="_blank"  >XDA论坛</a></td>
-                        <td align="center"><a href="http://www.mumayi.com/" target="_blank"  >木蚂蚁市场</a></td>
-                    </tr>
-                    </tbody>
-
-                    <tbody>
-                    <tr>
-                        <td   align="center">学习</td>
-                        <td align="center"><a href="http://springboot.fun/" target="_blank"  >Spring Boot</a></td>
-                        <td align="center"><a href="https://www.liaoxuefeng.com/" target="_blank"  >廖雪峰网站</a></td>
-                        <td align="center"><a href="http://blog.720ui.com/" target="_blank"  >梁桂钊博客</a></td>
-                        <td align="center"><a href="https://www.entts.com/" target="_blank"  >英语朗读</a></td>
-                    </tr>
-                    </tbody>
-                    <tr>
-                        <td  align="center">其他</td>
-                        <td align="center"><a href="http://www.zxcs8.com/" target="_blank"  >知轩藏书</a></td>
-                        <td align="center"><a href="http://inoreader.com" target="_blank"  >RSS阅读</a></td>
-                        <td align="center"><a href="http://share.dmhy.org/" target="_blank"  >動漫花園</a></td>
-                        <td align="center"><a href="https://shadowsocks.be/" target="_blank"  >科学上网</a></td>
-                    </tr>
-                    </tbody>
-                </table>
-
-            </div>
-        </div> -->
         
         <div class="ui styled fluid accordion">
             <div class="active title"><i class="dropdown icon"></i> My Navigation </div>
             <div class="active content">
-                
                 <table class="ui celled striped table">
                     <tbody id="navigations">
                         <!-- <tr>
@@ -114,11 +70,8 @@
                                 </div>
                             </td>
                         </tr> -->
-                        <!-- <a class="ui red tag label">Blog</a>
-                        <a class="ui teal tag label">Blog</a> -->
-
                     </tbody>
-                  </table>
+                </table>
             </div>
             <div class="title"><i class="dropdown icon"></i> My Book </div>
             <div class="content">
@@ -132,33 +85,12 @@
         
     </div>
 
-    <!-- <div class="ui footer segment  inverted vertical">
-        <div class="footer-inner" >
-        <div class="copyright">
-            ©
-            <span itemprop="copyrightYear">2018</span>
-            <div class="ui inverted small horizontal link list">
-            <a href="https://www.gotoss.cn/" class="item">Morey丨个人导航</a>
-            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="item" target="_blank" style="display: inline-block; vertical-align: middle; margin-left: 10px;"><img alt="知识共享许可协议" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-sa.svg"></a>
-            </div>
-        </div>
-
-        <div class="powered-by">
-                Powered by <div class="ui inverted small horizontal link list"> <a class="item" href="https://www.gotoss.cn">Morey</a></div>
-            丨<span id="busuanzi_container_site_pv">访问量：<span id="busuanzi_value_site_pv"></span></span>
-            </div>
-
-        </div>
-    </div> -->
-
-
 <!-- <canvas id="canvas" width="100%" height="100%"></canvas> -->
 </body>
 
 <script src="js/navigations.js"></script>
 <script src="js/semantic.min.js"></script>
 <script src="js/search.js"></script>
-
 <script type="text/javascript">
     var OriginTitile = document.title;
     var titleTime;
@@ -176,15 +108,43 @@
             }
         });
 </script>
-
 <script type="text/javascript">
     $('.ui.accordion')
         .accordion()
     ;
 </script>
-
 <script src="js/superplaceholder.js"></script><!--  打字机效果 -->
 <script src="js/checkOs.js"></script>
 <!-- <script src="js/hovertreewelcome.js"></script> -->
-
+<script type="text/javascript" color="53,53,53" opacity='0.7' zIndex="-2" count="100" src="js/canvas-nest.js"></script>
+<script type="text/javascript">
+    /* 鼠标特效 */
+    var a_idx = 0;
+    jQuery(document).ready(function($) {
+        $("body").click(function(e) {
+            var a = new Array("❤", "✌");
+            var $i = $("<span></span>").text(a[a_idx]);
+            a_idx = (a_idx + 1) % a.length;
+            var x = e.pageX,
+            y = e.pageY;
+            $i.css({
+                "z-index": 999,
+                "top": y - 20,
+                "left": x,
+                "position": "absolute",
+                "font-weight": "bold",
+                "color": "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")",
+            });
+            $("body").append($i);
+            $i.animate({
+                "top": y - 180,
+                "opacity": 0
+            },
+            1500,
+            function() {
+                $i.remove();
+            });
+        });
+    });
+</script>
 </html>

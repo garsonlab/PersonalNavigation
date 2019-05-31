@@ -48,7 +48,7 @@ let doAction=function(p,n,s){
     }else{
         window.open(p+sInfor.value+n);
     }
-    
+    sInfor.value = "";
 }
 
 //拼接网址
