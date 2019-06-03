@@ -30,7 +30,6 @@ var data = [
             {url: "http://www.manew.com/forum.php", title:"", display:"蛮牛论坛"},
             {url: "http://forum.unity3d.com/", title:"", display:"Unity论坛"},
             {url: "http://docs.unity3d.com/ScriptReference/", title:"", display:"ScriptingAPI"},
-            {url: "http://forum.unity3d.com/", title:"", display:"Unity论坛"},
             {url: "http://www.ulua.org/index.html", title:"", display:"ULua"},
             {url: "https://bitbucket.org/Unity-Technologies", title:"", display:"UGUI源码"},
             {url: "http://www.fairygui.com/", title:"", display:"FairyGUI"},
