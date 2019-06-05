@@ -123,6 +123,7 @@ var data = [
             {url: "https://easyhook.github.io/tutorials.html", title:"注入程序", display:"Easy Hook"},
             {url: "https://github.com/chenjd/UsefulWeb", title:"", display:"chenjd/UsefulWeb"},
             {url: "https://github.com/antlr/antlr4", title:"DSL自定义语言解析工具", display:"Antlr4"},
+            {url: "https://github.com/Elringus/SpriteGlow", title:"图片外发光效果", display:"SpriteGlow"},
         ]
     },
 ]
