@@ -35,6 +35,7 @@ var data = [
             {url: "http://www.fairygui.com/", title:"", display:"FairyGUI"},
             {url: "http://robertpenner.com/easing/easing_demo.html", title:"", display:"Tweeen轨迹"},
             {url: "http://gad.qq.com/", title:"", display:"腾讯Gad"},
+            {url: "https://indienova.com/", title:"indienova独立游戏", display:"独立游戏"},
         ]
     },
     {
