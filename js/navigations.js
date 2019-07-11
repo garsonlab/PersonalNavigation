@@ -128,6 +128,7 @@ var data = [
             {url: "https://github.com/Elringus/SpriteGlow", title:"图片外发光效果", display:"SpriteGlow"},
             {url: "https://github.com/FaronBracy/RogueSharp", title:"随机地图", display:"随机地图生成"},
             {url: "https://github.com/garsonlab/build-your-own-x", title:"构建自己的***", display:"build-your-own-x"},
+            {url: "https://github.com/yuanxiaosc/DeepNude-an-Image-to-Image-technology", title:"图像转换另一种图像", display:"Image-to-Image"},
         ]
     },
 ]
