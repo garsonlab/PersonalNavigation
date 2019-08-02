@@ -131,6 +131,8 @@ var data = [
             {url: "https://github.com/garsonlab/build-your-own-x", title:"构建自己的***", display:"build-your-own-x"},
             {url: "https://github.com/yuanxiaosc/DeepNude-an-Image-to-Image-technology", title:"图像转换另一种图像", display:"Image-to-Image"},
             {url: "https://www.jianshu.com/c/d58693c61673?utm_source=desktop&utm_medium=notes-included-collection", title:"简书-Shader专题", display:"Shader 简书"},
+        
+            {url: "https://github.com/thangchung/awesome-dotnet-core#general", title:"各种dotnet core项目收集", display:"Dotnet Core搜集"},
         ]
     },
 ]
