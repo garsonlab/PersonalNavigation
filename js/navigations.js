@@ -77,6 +77,7 @@ var data = [
             {url: "https://en.wikibooks.org/wiki/Cg_Programming/Unity", title:"", display:"Cg Programming"},
             {url: "https://referencesource.microsoft.com/#mscorlib/system/collections/generic/dictionary.cs,d3599058f8d79be0", title:"", display:"dot net源码"},
             {url: "https://learnopengl-cn.github.io/intro/", title:"", display:"Open GL"},
+            {url: "https://github.com/huihut/CS-Books", title:"计算机技术类书籍 PDF", display:"计算机技术类书籍PDF"},
         ]
     },
     {
