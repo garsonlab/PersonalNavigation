@@ -136,6 +136,7 @@ var data = [
         
             {url: "https://github.com/thangchung/awesome-dotnet-core#general", title:"各种dotnet core项目收集", display:"Dotnet Core搜集"},
             {url: "https://github.com/istic-student/roguelike/tree/master", title:"Roguelike Demo", display:"Roguelike Demo"},
+            {url: "https://github.com/antonpantev/unity-movement-ai", title:"包含寻路，回避,追寻..", display:"Unity Movement AI"},
         ]
     },
 ]
