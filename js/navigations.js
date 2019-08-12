@@ -55,6 +55,7 @@ var data = [
             {url: "http://www.ruanyifeng.com/home.html", title:"", display:"阮一峰"},
             {url: "https://www.liaoxuefeng.com/", title:"", display:"廖雪峰"},
             {url: "https://www.perfare.net/", title:"游戏破解", display:"perfare"},
+            {url: "http://www.luzexi.com/", title:"", display:"陆泽西"},
         ]
     },
     {
