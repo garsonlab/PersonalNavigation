@@ -93,6 +93,7 @@ var data = [
             {url: "https://www.json.cn/", title:"", display:"Json解析"},
             {url: "https://greasyfork.org/zh-CN", title:"Chrome插件脚本", display:"Greasy Fork"},
             {url: "http://www.u77.com/game/9011?tdsourcetag=s_pctim_aiomsg", title:"U77末日危机", display:"末日危机2"},
+            {url: "https://github.com/killgcd/chromego/tree/master/ChromeGo", title:"翻墙工具包", display:"Chrome Go"},
         ]
     },
     {
