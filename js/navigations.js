@@ -140,6 +140,7 @@ var data = [
             {url: "https://github.com/istic-student/roguelike/tree/master", title:"Roguelike Demo", display:"Roguelike Demo"},
             {url: "https://github.com/antonpantev/unity-movement-ai", title:"包含寻路，回避,追寻..", display:"Unity Movement AI"},
             {url: "https://github.com/AdultLink/TexturePanner", title:"霓虹灯般图片效果", display:"TexturePanner霓虹灯"},
+            {url: "https://github.com/nightyan/Shader2D", title:" 一些2D效果的Shader实现", display:"Shader2D效果"},
         ]
     },
 ]
