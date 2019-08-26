@@ -10,7 +10,7 @@ const sZhihu = document.getElementById('zhihu');
 // const sYouTube = document.getElementById('youtube')
 // const sBilibili = document.getElementById("bilibili");
 const sYingshi = document.getElementById("yingshi");
-const sWangpan = document.getElementById("wangpan");
+// const sWangpan = document.getElementById("wangpan");
 const sBt = document.getElementById("bt");
 const sFanyi = document.getElementById("fanyi");
 
@@ -153,12 +153,12 @@ sYingshi.onclick = function () {
 }
 
 //Wangpan
-sWangpan.onclick = function () {
-    p='http://www.panuso.com/s/';
-    n='.html';
-    s='http://www.panuso.com'
-    doAction(p,n,s);
-}
+// sWangpan.onclick = function () {
+//     p='http://www.panuso.com/s/';
+//     n='.html';
+//     s='http://www.panuso.com'
+//     doAction(p,n,s);
+// }
 
 //BT
 sBt.onclick = function () {
