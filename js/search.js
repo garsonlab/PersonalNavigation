@@ -4,7 +4,7 @@ const sGoogle = document.getElementById("google");
 const sBing = document.getElementById("bing");
 const sGitHub = document.getElementById("github");
 const sGitee = document.getElementById("gitee");
-// const sZhihu = document.getElementById('zhihu');
+const sZhihu = document.getElementById('zhihu');
 // const sJd = document.getElementById('jd');
 // const sTaoBao = document.getElementById('taobao');
 // const sYouTube = document.getElementById('youtube')
@@ -107,12 +107,12 @@ sGitee.onclick = function () {
 }
 
 //Zhihu
-// sZhihu.onclick= function () {
-//     p='https://www.zhihu.com/search?q=';
-//     n='&type=content&utm_content=search_hot';
-//     s='https://www.zhihu.com/'
-//     doAction(p,n,s);
-// }
+sZhihu.onclick= function () {
+    p='https://www.zhihu.com/search?q=';
+    n='&type=content&utm_content=search_hot';
+    s='https://www.zhihu.com/'
+    doAction(p,n,s);
+}
 
 //jd
 // sJd.onclick = function () {
