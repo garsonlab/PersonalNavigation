@@ -99,6 +99,7 @@ var data = [
             {url: "https://github.com/hoodiearon/WebOutlook", title:"翻墙、git链接", display:"Web Out Look"},
             {url: "https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md", title:"Windows工具应用", display:"Awesome Windows"},
             {url: "https://masuit.com/20", title:"", display:"Reshaper"},
+            {url: "https://www.waitsun.com/", title:"Mac中的破解软件", display:"麦氪派"},
         ]
     },
     {
