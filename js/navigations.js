@@ -101,6 +101,8 @@ var data = [
             {url: "https://masuit.com/20", title:"", display:"Reshaper"},
             {url: "https://www.waitsun.com/", title:"Mac中的破解软件", display:"麦氪派"},
             {url: "https://i18ns.com/", title:"多语言翻译", display:"i18n"},
+            {url: "https://www.typora.io/", title:"Markdown编辑器", display:"Markdown编辑器"},
+            {url: "https://sourcegraph.com", title:"Github浏览插件", display:"SourceGraph"},
         ]
     },
     {
